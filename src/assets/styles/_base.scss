@@ -1,5 +1,36 @@
 body {
   font-family: 'Pretendard', 'Roboto', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  //  background-color: #f4f4f4;
+  @apply bg-slate-100 h-screen;
+}
+
+/* Heroicons 스타일 */
+.heroicon-4 {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+}
+.heroicon-5 {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
+}
+.heroicon-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+}
+.heroicon-7 {
+  width: 1.75rem;
+  height: 1.75rem;
+  display: inline-block;
+}
+.heroicon-8 {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+}
+
+.header-logo {
+  @apply text-lg font-semibold p-4 bg-primary-800 text-white min-w-40 lg:w-60 lg:min-w-60 lg:max-w-60;
 }

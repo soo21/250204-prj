@@ -3,6 +3,7 @@ import AdminView from '@/views/AdminView.vue'
 import LoginView from '@/views/LoginView.vue'
 import AdminDashboard from '@/views/admin/AdminDashboard.vue'
 import AdminSample from '@/views/admin/AdminSample.vue'
+import AdminSample2 from '@/views/admin/AdminSample2.vue'
 
 const routes = [
   { path: '/', redirect: '/login' },
@@ -13,6 +14,7 @@ const routes = [
     children: [
       { path: 'AdminDashboard', component: AdminDashboard },
       { path: 'AdminSample', component: AdminSample },
+      { path: 'AdminSample2', component: AdminSample2 },
     ],
   },
 ]
